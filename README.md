@@ -49,7 +49,6 @@ create database laravel_image_manipulation_rest_api
 Finally, run the initial migrations and seeders.
 ```
 php artisan migrate --seed
-
 ```
 
 ### File Uploading
