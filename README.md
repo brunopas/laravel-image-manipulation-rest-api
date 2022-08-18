@@ -13,7 +13,7 @@
 
 ## About
 
-A useful service to manipulate images by URL and/or direct upload. Image Manipulation is a REST API developed in PHP Language and Laravel Framework.<br>
+An API to manipulate images by URL and/or direct upload. Image Manipulation was developed using PHP Language and Laravel Framework.<br>
 This is a non-profit project. All prototypes, software code, design and illustrations are created for educational purposes only.<br>
 Project developed during <a href="https://www.youtube.com/watch?v=bvvVX9Pny84">"How to Build REST API in Laravel 8
 "</a> course by <a href="https://www.youtube.com/c/TheCodeholic">The Codeholic</a>.
