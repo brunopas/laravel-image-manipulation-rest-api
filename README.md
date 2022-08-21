@@ -55,19 +55,19 @@ $ php artisan migrate --seed
 
 ### File Uploading
 When uploading files, they go to "storage/app/public". Create a symlink with the following command to make them publicly accessible.
-```
+```bash
 $ php artisan storage:link
 ```
 
 ### Running - PHP Server
 To serve the application on the PHP development server, run the following command:
-```
+```bash
 $ php artisan serve
 ```
 
 ### Running - Node Server
 To serve the application on the Node development server, run the following command:
-```
+```bash
 $ npm run dev
 ```
 
