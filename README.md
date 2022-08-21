@@ -30,43 +30,45 @@ In addition, it is good to have an editor to work with the code like <strong><a 
 
 ### Installation
 First, clone this repository, install the dependencies, and setup your <code>.env</code> file.
-```
-git clone https://github.com/brunopas/laravel-image-manipulation-rest-api.git
-composer install
-cp .env.example .env
+```bash
+$ git clone https://github.com/brunopas/laravel-image-manipulation-rest-api.git
+$ cd laravel-image-manipulation-rest-api
+
+$ composer install
+$ cp .env.example .env
 ```
 This app uses <strong><a href="https://www.mysql.com/">MySQL</a></strong>. To use something different, open up <code>config/Database.php</code> and change the default driver.<br>
 To use MySQL, make sure you install it, setup a database and then add your DB credentials (database, username and password) to the <code>.env</code> file.
 
 ### Database Setup
 Then, create the necessary database.
-```
-php artisan db
-create database laravel_image_manipulation_rest_api
+```bash
+$ php artisan db
+$ create database laravel_image_manipulation_rest_api
 ```
 
 ### Migrations
 Finally, run the initial migrations and seeders.
-```
-php artisan migrate --seed
+```bash
+$ php artisan migrate --seed
 ```
 
 ### File Uploading
 When uploading files, they go to "storage/app/public". Create a symlink with the following command to make them publicly accessible.
 ```
-php artisan storage:link
+$ php artisan storage:link
 ```
 
 ### Running - PHP Server
 To serve the application on the PHP development server, run the following command:
 ```
-php artisan serve
+$ php artisan serve
 ```
 
 ### Running - Node Server
 To serve the application on the Node development server, run the following command:
 ```
-npm run dev
+$ npm run dev
 ```
 
 ---
@@ -77,10 +79,8 @@ The following tools were used to build the project:
 -   **[PHP](https://www.php.net/)** >= 8.0.2
 -   **[Node](https://nodejs.org/)** >= 16.0
 -   **[Laravel Framework](https://laravel.com/)** >= 9.19
--   **[Laravel Blade](https://laravel.com/)**
 -   **[Laravel Sanctum](https://laravel.com/)** >= 3.0
 -   **[Laravel Breeze](https://laravel.com/)** >= 1.11
--   **[Redis](https://redis.io/)**
 -	**[Image Intervention](https://image.intervention.io/v2)** >= 2.7
 -   **[Tailwind CSS](https://tailwindcss.com/)**
 -   **[MySQL](https://www.mysql.com/)**
